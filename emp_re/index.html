@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta charset="utf-8">
+	  <title>Employee Registration</title>
+	  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	  <link rel="stylesheet" href="css/app.css" type="text/css" media="screen">
+
+	  <script src="js/angular.js"></script>
+	  <script src="js/app.js"></script>
+	  <script src="js/data.js"></script>
+	</head>
+	<body ng-app ="myApp">
+		<div class="cont" ng-controller="DBController">
+			<div id="head">
+				<h1>Employee information.</h1>
+				<h2>You have {{empArray.length}} employees on file.</h2>
+			</div>
+			<div class="regForm">
+				<h3>Please enter New Employee information.</h3>
+
+				<form ng-submit="addItem(empName, empStreet, empCity, empState, empZip)">
+					<label for="fullName">Full Name:</label><br>
+					<input id="fullName" type="text" name="signUp" placeholder="Full Name" required ng-model="empName"> <br>
+
+					<label for="street">Street:</label><br>
+					<input id="street" type="text" name="signUp" placeholder="Street" required ng-model="empStreet"><br>
+
+					<label for="city">City:</label><br>
+					<input id="city" type="text" name="signUp" placeholder="City" required ng-model="empCity"><br>
+
+					<label for="state">State:</label><br>
+					<input id="state" type="text" name="signUp" placeholder="State" required ng-model="empState"><br>
+
+					<label for="zip">Zip Code:</label><br>
+					<input id="zip" type="text" name="signUp" placeholder="Zip Code" required ng-model="empZip"><br>
+
+					<input name="signUp" type="submit" id="register" value="Add Employee" ui-keypress="{13:'addItem(empName, empStreet, empCity, empState, empZip)'}">
+				</form>
+			</div><!--End regForm-->
+			<div id="right">
+				<div class="empDs" ng-repeat="item in empArray track by $index">
+					<div class="topSec"></div>
+					<h4 ng-repeat="(key, val) in item">{{val}}</h4>
+					<button ng-click="removeName(item )">Remove Employee</button>
+				</div>
+			</div>
+
+			
+
+		</div><!--End DBController-->
+	</body>
+	
+</html>

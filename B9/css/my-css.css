@@ -1,0 +1,288 @@
+
+ul{
+	list-style-type: none;
+}
+
+img{
+	width: 100%;
+}
+
+a img{
+	-moz-transition-property:opacity;
+	-moz-transition-duration:1s;
+	-webkit-transition-property:opacity;
+	-webkit-transition-duration:1s;
+	-o-transition-property:opacity;
+	-o-transition-duration:1s;
+	transition-property:opacity;
+	transition-duration:1s;
+}
+
+a img:hover{
+	opacity:.8;
+}
+
+iframe{
+	padding: 10px 4%;
+}
+
+.name h1 a{
+	font-size: 2em;	
+	-webkit-perspective:500px;
+	-moz-perspective:500px; 
+	-o-perspective:500px;
+	perspective:500px;            
+}
+
+.logo{
+	transition:all 4s ease;
+}
+
+.logo:hover{
+	-webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.head-story{
+	background-color: #DBDBDB;
+	width: 64%;
+	margin-top: 10px;
+}
+
+.head-story h2{
+	line-height: 1em;
+}
+
+.head-story h3, .head-story p{
+	width: 15%;
+	float: left;
+}
+
+.head-story h3{
+	font-size: 1.5em;
+	margin-left: 6px;
+}
+
+.head-story p{
+	clear: right;
+	font-size: .750em;
+	margin-left: 6px;
+}
+
+.head-story .head-img{
+	float: left;
+	padding-bottom: 27px;
+	width: 82%;
+}
+
+.trending{
+	margin:10px 1%;
+	background-color: #DBDBDB;
+}
+
+.weather{
+	margin: 1px 1%;
+	background-color: #DBDBDB;
+}
+
+.button{
+	margin-left: 4%;
+}
+.imgs-slide{
+	margin-left: -1.5%;
+}
+
+.imgs-slide img{
+	width: 100%;
+	height: 300px; 
+}
+
+footer{
+	background-color: #DBDBDB;
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px){
+	
+	.head-story{
+		width: 100%;
+	}
+
+	.head-story img{
+		width: 100%;
+	}
+
+	.head-story h2{
+		float: left;
+		clear: both;
+	}
+
+	.head-story h3{
+		width: 100%;
+	}
+
+	.head-story p{
+		width: 100%;
+	}
+
+	.head-story .head-img{
+	width: 100%;
+	}
+
+	.trending{
+		width: 50%;
+		line-height: 1em;
+	}
+
+	.trending ul{
+		line-height: 1.8em;
+	}
+
+	.weather p{
+		line-height: .5em;
+	}
+
+	.weather{
+		width: 45%;
+		margin-top: 10px;
+	}
+	/*table from weather-update*/
+	table{
+		margin-left: 4%;
+	}
+	/*news stories*/
+	.story p{
+		margin:0 2%;
+	}
+
+	.story h1,h6{
+		margin:0 2%;
+	}
+	.story a{
+		margin:0 2%;
+	}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+	
+	.head-story{
+		width: 100%;
+	}
+
+	.head-story img{
+		width: 100%;
+	}
+
+	.head-story h2{
+		float: left;
+		clear: both;
+	}
+
+	.head-story h3{
+		width: 100%;
+	}
+
+	.head-story p{
+		width: 100%;
+	}
+
+	.head-story .head-img{
+	width: 100%;
+	}
+
+	.trending{
+		width: 50%;
+	}
+
+	.weather p{
+		line-height: 1.4em;
+	}
+
+	.weather{
+		width: 45%;
+		margin-top: 10px;
+	}
+	/*table from weather-update*/
+	table{
+		margin-left: 4%;
+	}
+	/*news stories*/
+	.story p{
+		margin:0 4%;
+	}
+
+	.story h1,h6{
+		margin:0 4%;
+	}
+	.story a{
+		margin:0 4%;
+	}
+
+}
+
+@media only screen and (max-width: 479px){
+
+	.head-story{
+		width: 100%;
+	}
+
+	.head-story img{
+		width: 100%;
+	}
+
+	.head-story h2{
+		float: left;
+		clear: both;
+	}
+
+	.head-story h3{
+		width: 100%;
+	}
+
+	.head-story p{
+		width: 100%;
+	}
+
+	.head-story .head-img{
+	width: 100%;
+	}
+
+	.trending{
+		display: none;
+	}
+
+	.weather{
+		margin-top: 10px;
+	}
+
+	.foot{
+		display: none;
+	}
+	/*table from weather-update*/
+	table{
+		margin-left: 4%;
+	}
+	/*news stories*/
+	.story p{
+		margin:0 4%;
+	}
+
+	.story h1,h6{
+		margin:0 4%;
+	}
+	.story a{
+		margin:0 4%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

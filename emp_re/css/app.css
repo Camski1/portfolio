@@ -1,0 +1,80 @@
+body{
+	background-color: #F6FFE0;
+}
+
+h1, h2{
+	color: #10222B;
+	margin-left: 80px;
+}
+
+h1{
+	padding-top: 20px;
+}
+
+h2{
+	margin-top: -10px;
+}
+
+p{
+	line-height: 10px;
+}
+
+form #register, button{
+	background-color: #C2EFA8;
+}
+
+#head{
+	background-color: #95AB63;
+	margin-top: -20px;
+	padding-bottom: 10px;
+}
+
+.regForm{
+	margin-top: 13px;
+	margin-left: 80px;
+	background-color: #E2F0D6;
+	width: 33%;
+	padding: 10px;
+}
+
+form input{
+	width: 100%;
+	margin-top: 5px;
+}
+
+#right{
+	width: 60%;
+	float: right;
+	margin: -389px 10px 0px 10px;
+}
+
+.empDs{
+	background-color: #E2F0D6;
+	border: 1px solid #BDD684;
+	width: 30%;
+	display: inline-block;
+	margin: 2px;
+}
+
+.empDs h4{
+	margin-top: -40px;	
+	padding-left: 10px;
+	line-height: 55px;
+}
+
+.topSec{
+	height: 30px;
+	width: 100%;
+	background-color: #95AB63;
+	font-size: 50px;
+}
+
+.empDs button{
+	width: 100%;
+	margin-top: -10px;
+}
+
+
+
+
+

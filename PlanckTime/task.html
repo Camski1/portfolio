@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Planck Time</title>
+		<link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
+	</head>
+	<body>
+		<div class="rap">
+			<div class="log-in">
+				<form action="index.html" class="line-two">
+					<p id="userDisplay">Welcome:</p>
+					<input type="submit" value="Log-Out">
+				</form>
+			</div>
+			<div class="nav">
+				<div class="navbar">
+					<ul>
+						<li><a class="home" href="home.html">Home</a></li>
+						<li><a class="task currentLink" href="task.html">Tasks</a></li>
+						<li><a class="account" href="account.html">Account</a></li>
+						<li class="right_nav"><a class="about" href="about.html">About</a></li>
+						<li><a class="tips" href="tips.html">Tips &amp; Tricks</a></li>
+						<li><a href="sign-in.html">Sign-Up</a></li>
+					</ul>
+				</div>
+				<img class="einstien" src="img/einstien.png">
+			</div>
+			<div class="tsk_page">
+			<h1>Let's get started!</h1>
+			<div id="accordion">
+  				<h3 class="tabs1">Assignments</h3>
+  				<div class="hide1">
+    				<div id="projectlist">
+    					<div class="projects">
+
+    					</div>
+     			    </div>
+     			</div>
+
+  			</div>
+  			<h3 class="tabs2">Tests</h3>
+  			<div class="hide2">
+    			<div class="work two">
+					<div class="add_task" >
+				
+					</div>
+					<div class="urgency">
+						
+					</div>
+					<div class="delete">
+						
+					</div>
+				</div>
+  			</div>
+  			<h3 class="tabs3">Home Work</h3>
+  			<div class="hide3">
+    			<div class="work two">
+					<div class="add_task" >
+						
+					</div>
+					<div class="urgency">
+						
+					</div>
+					<div class="delete">
+						
+					</div>
+				</div>
+  			</div>
+  			<div id="add">
+  				<a href="#">
+				<div class="add plus">
+					<h1>+</h1>
+				</div>
+				</a>
+  			</div>
+		</div>
+	 </div>
+	 <div class="overlay">
+	   <div id="popup">
+	 	<a href="">
+	 		<div class="add thisOne">
+				<h1>x</h1>
+			</div>
+		</a>
+	 	<h2>Add a task!</h2>
+	 	<form>
+	 		<label for="projname">Project Name:</label>
+				<input id="projectName" type="text" name="projname" placeholder="Project Name" required><br>
+
+				<label for="coms">What do you need to do?</label><br>
+				<textarea id="projectDescription" rows="2" cols="36"></textarea>
+				<label for="date">When is the projects due date?</label>
+				<input id="projectDueDate" type="date" name="bday">
+				<label>Urgency</label>
+				<ul><li>
+				<label class="popStat">
+				<input class="popStat" type="radio" name="status" id="high"><img src="img/high.png" width="30">
+				</label></li>
+				<li><label class="popStat"><input type="radio" name="status" id="med"><img src="img/med.png" width="30">
+				</label></li>
+				<li><label class="popStat"><input type="radio" name="status" id="low"><img src="img/glass.png" width="30">
+				</label></li>
+				<li><label class="popStat"><input type="radio" name="status" id="complete"><img src="img/comp.png" width="30">
+				</label></li>
+				</ul>
+				<input id="addButton" class="addTsk" type="button" value="Done">
+	 	</form>
+	   </div>
+	 </div>
+	 <footer class="foottsk">
+		<div class="foot2">
+			<ul class="fleft">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="task.html">Tasks</a></li>
+				<li><a href="tips.html">Tips &amp; Tricks</a></li>
+				<li><a href="account.html">Account</a></li>
+			</ul>
+			<ul class="fmid">
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	 </footer>
+	 <script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	 <script type="text/javascript" src="js/app.js"></script>
+   </body>
+
+</html>

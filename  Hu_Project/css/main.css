@@ -1,0 +1,265 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+
+nav{
+	position: fixed;
+	background-color: #181408;
+	font-size: 22px;
+	width: 100%;
+	height: 58px;
+	z-index: 1003;
+}
+
+a{
+	text-decoration: none;
+	color: #B1B1B2;
+}
+
+
+a:hover{
+	font-weight: normal;
+}
+
+#navBar{
+	width: 76%;
+	margin-left: 12%;
+}
+
+#navBar li{
+	display: inline-block;
+	padding: 0px 50px 0px 0px;
+}
+
+#navBar ul{
+	float: right;
+	margin-right: -50px;
+}
+
+/*End navbar*/
+
+/*popup form*/
+button{
+	font-size: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	padding: 12px;
+}
+
+#popUp{
+	z-index: 1000;
+	display: none;
+	position: fixed;
+	background-color: #9173A3;
+	height: 480px;
+	width: 600px;
+	margin: -2740px 30% 0px 30%;
+}
+
+#popUp h1{
+	margin-left:37px; 
+	color: #181408;
+}
+
+#popUp form{
+	margin-top:20px; 
+}
+
+#popUp form input{
+	margin: 10px 1% 10px 7%;
+	width: 85%;
+}
+
+#popUp form label{
+	margin-left: 30px ;
+	padding: 10px;
+	width: 70%;
+}
+
+#popUp form button{
+	margin-left: 40px;
+	font-size: 15px;
+}
+
+/*end popup form*/
+
+#btn1, #PopB1{
+	margin: -10px 8% 0px 64%;
+	background-color: #B1D873;
+	border: 2px solid #678931;
+}
+
+#btn2, #PopB2{
+	background-color: #D18FC8;
+	border: 2px solid #6C597F;
+}
+
+#btn1:hover, #PopB1:hover, #footB1:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+	background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+	background-color:#a5cc52;
+}
+
+#btn1:active, #PopB1:active{
+	position:relative;
+	top:1px;
+}
+
+#btn2:hover, #PopB2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ad64a3), color-stop(1, #d18fc8) );
+	background:-moz-linear-gradient( center top, #ad64a3 5%, #d18fc8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad64a3', endColorstr='#d18fc8');
+	background-color:#ad64a3;
+}
+#btn2:active, #PopB2:active {
+	position:relative;
+	top:1px;
+}
+
+#cont{
+	width: 100%;	
+}
+
+#cont img{
+	width: 100%;
+	height: 530px;
+	margin-top: -11px;
+}
+
+#hero #quote{
+	color: #DCDBDD;
+	font-size: 24px;
+	margin-top: -180px;
+	margin-left: 12%;
+	height: 40px;
+	width: 600px;
+}
+
+#letter{
+	padding-top: 55px;
+	padding-bottom: 10px;
+	background-color: #AA95C1;
+}
+
+#letter h1, #letter p{
+	margin-left: 12%;
+	margin-right: 12%;
+}
+
+#letter p{
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.chart-container{
+	font-size: 14px;
+	width: 100%;
+	padding-bottom: 10px;
+	color: #B1B1B2;
+	background-image: url('../img/tunnel.jpg'); 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+
+.chart-content{
+	margin-left: 11%;
+}
+
+.chart-area{
+	color: #B1B1B2;
+}
+
+.chart-title h1{
+	margin-left: 11%;
+}
+
+#map{
+	background-color: #6C597F;
+	margin-top: -15px;
+	padding: 10px 0px;
+}
+
+#map h1{
+	margin-left: 12%;
+}
+
+#gallery{
+	padding: 50px 0px;
+	background-color: #AA95C1;
+}
+
+#gallery h1, #gallery #imgs{
+	margin-left: 12%;
+}
+
+#gallery a{
+	margin-left: 2px;
+}
+
+#gallery video{
+	margin:5px 26%;
+}
+
+footer{
+	padding: 10px 0px;
+	background-color: #6C597F;
+}
+
+footer ul{
+	padding: 15px;
+	list-style-type: none;
+}
+
+#foot{
+	width: 100%;
+	background-color: #6C597F;
+}
+
+#ul1{
+	margin-left: 11%;
+	float:left;
+}
+
+#ul2{
+	float:left;
+}
+
+#ul3{
+	float:left;
+}
+
+footer a{
+	color: #181408;
+}
+
+#footForm{
+	width: 50%;
+	margin-left: 780px;
+	margin-top: 35px;
+}
+
+#footB1{
+	background-color: #B1D873;
+	border: 2px solid #678931;
+}
+
+#fix{
+	width: 100%;
+	height: 30px;
+	background-color: #6C597F;
+}
+
+canvas{
+	margin: 0px 40%;
+}
+
+
+
+
